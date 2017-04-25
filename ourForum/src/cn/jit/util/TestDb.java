@@ -1,5 +1,5 @@
 package cn.jit.util;
-//测试连接书否成功
+//娴嬭瘯閾炬帴鏄惁鎴愬姛
 public class TestDb {
 	
 	public static void main(String[] args) {
