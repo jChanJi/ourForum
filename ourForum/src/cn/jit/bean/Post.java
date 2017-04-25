@@ -4,12 +4,20 @@ import java.util.Date;
 /**
  * 
  * @author ShunW
+ * 发帖对象
  */
 public class Post {
+	private int p_id;//发布的帖子的id
+	private int u_id;//发帖用户id
+	private String p_title;//发帖的名称
+	private String p_content;//发帖的内容
+	private Date p_time;//发帖时间
+	//无参构造
 	public Post(){
 		
 	}
 	/**
+	 * 有参构造
 	 * @param p_id
 	 * @param u_id
 	 * @param p_title
@@ -54,6 +62,7 @@ public class Post {
 	public void setP_time(Date p_time) {
 		this.p_time = p_time;
 	}
+	//转化成字符串
 	@Override
 	public String toString() {
 		return "Post [p_id=" + p_id + ", u_id=" + u_id + ", p_title=" + p_title + ", p_content=" + p_content
