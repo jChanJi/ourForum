@@ -1,25 +1,24 @@
-package cn.jit.javabean;
+package cn.jit.bean;
 /**
  * 
  * @author ChanJi
- *ÓÃ»§¶ÔÏó
+ *ç”¨æˆ·å¯¹è±¡
  */
 public class User {
-	private String u_id;//±àºÅ
-	private String u_name;//ÓÃ»§Ãû¹æ¶¨¸ñÊ½
-	private String u_passwd;//ÃÜÂë£¬¹æ¶¨¸ñÊ½
-	private String u_sex;//ĞÔ±ğ£¬ÄĞ»òÕßÅ®
-	private String u_mail;//ÓÊÏä£¬¹æ¶¨¸ñÊ½
-	private String u_occupation;//Ö°Òµ£¬²»¶àÓÚ20¸ö×Ö
-	private String u_des;//¼ò½é£¬Ò»°Ù×ÖÒÔÄÚ
-	private String u_hp;//Í·ÏñµÄµØÖ·£¨ÎÄ¼şµÄµØÖ·£©
-	private String u_location;//³£×¡µØÖ·£¬50 ¸ö×ÖÒÔÄÚ
+	private String u_id;//ç¼–å·
+	private String u_name;//ç”¨æˆ·åè§„å®šæ ¼å¼
+	private String u_passwd;//å¯†ç ï¼Œè§„å®šæ ¼å¼
+	private String u_sex;//æ€§åˆ«ï¼Œç”·æˆ–è€…å¥³
+	private String u_mail;//é‚®ç®±ï¼Œè§„å®šæ ¼å¼
+	private String u_occupation;//èŒä¸šï¼Œä¸å¤šäº20ä¸ªå­—
+	private String u_des;//ç®€ä»‹ï¼Œä¸€ç™¾å­—ä»¥å†…
+	private String u_hp;//å¤´åƒçš„åœ°å€ï¼ˆæ–‡ä»¶çš„åœ°å€ï¼‰
+	private String u_location;//å¸¸ä½åœ°å€ï¼Œ50 ä¸ªå­—ä»¥å†…
 	
-	//ÎŞ²Î¹¹Ôìº¯Êı£¬±ØĞëĞ´£¡
+	//æ— å‚æ„é€ å‡½æ•°ï¼Œå¿…é¡»å†™ï¼
 	public User(){
 		
 	}
-
 	public String getU_id() {
 		return u_id;
 	}
@@ -92,17 +91,11 @@ public class User {
 		this.u_location = u_location;
 	}
 
-	//×ª»¯³É×Ö·û´®
+	//è½¬åŒ–æˆå­—ç¬¦ä¸²
 	@Override
 	public String toString() {
 		return "User [u_id=" + u_id + ", u_name=" + u_name + ", u_passwd=" + u_passwd + ", u_sex=" + u_sex + ", u_mail="
 				+ u_mail + ", u_occupation=" + u_occupation + ", u_des=" + u_des + ", u_hp=" + u_hp + ", u_location="
 				+ u_location + "]";
 	}
-	
-	
-	
-	
-	
-
 }
