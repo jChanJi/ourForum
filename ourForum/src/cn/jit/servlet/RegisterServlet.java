@@ -20,9 +20,11 @@ public class RegisterServlet extends HttpServlet{
 		
 		if(userName == null || userName.length() == 0){
 			out.print("aa");//输入为空
-		}else if(userName.length() <= 6){
+		}
+		else if(userName.length() <= 6){
 			out.print("aaaa");//用户名过短
-		}else{
+		}
+		else{
 			String regex = "^[a-z0-9A-Z\u4e00-\u9fa5]+$";
 			if(userName.matches(regex))	{
 				out.print("a");//符合命名规则
@@ -30,6 +32,9 @@ public class RegisterServlet extends HttpServlet{
 			}else{
 				out.print("aaa");//包含非法字符
 			}
+			
+			
+			
 			
 		}
 		

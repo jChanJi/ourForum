@@ -24,6 +24,7 @@
 <div class="mid">
 	<h1><em><strong>注册</strong></em></h1>
 	<div class="mid_main">
+	<form action= "login.do" method="post">
 		<ul>
 			<li>
 				<input type="text" id="userName" name="userName" placeholder="用户名" autocomplete="off">
@@ -40,9 +41,11 @@
 			<li>
 				<input type="submit" id="mid_main_btn" class="mid_main_btn" value="同意协议并登录">
 			</li>
+		
 			<li class="li1">---------------大数据论坛协议书--------------</li>
 			<li><a href="login.jsp">已有账号？立即登陆</a></li>
 		</ul>
+		</form>
 	</div>
 	<div class="footer">
 		<p>Copyright 2017 BigData forum 大数据论坛（吉吉国王小组）版权所有<br/>
