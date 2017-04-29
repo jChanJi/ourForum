@@ -24,28 +24,25 @@
 <div class="mid">
 	<h1><em><strong>注册</strong></em></h1>
 	<div class="mid_main">
-	<form action= "login.do" method="post">
 		<ul>
 			<li>
 				<input type="text" id="userName" name="userName" placeholder="用户名" autocomplete="off">
-				<p id="userNamePrompt"></p>
+				<p id="userNamePrompt" class="textsize"></p>
 			</li>
 			<li>
 				<input type="password" id="password" name="password" placeholder="密码" autocomplete="off">
-				<p id="passwdPrompt1"></p>
+				<p id="passwdPrompt1" class="textsize"></p>
 			</li>
 			<li>
 				<input type="password" id="password_confirm" name="password_confirm" placeholder="确认密码" autocomplete="off">
-				<p id="passwdPrompt2"></p>
+				<p id="passwdPrompt2" class="textsize"></p>
 			</li>
 			<li>
-				<input type="submit" id="mid_main_btn" class="mid_main_btn" value="同意协议并登录">
+				<input type="submit" id="mid_main_btn" class="mid_main_btn" value="登录">
 			</li>
-		
 			<li class="li1">---------------大数据论坛协议书--------------</li>
-			<li><a href="login.jsp">已有账号？立即登陆</a></li>
+			<li><a class="mid_main_href" href="login.jsp">已有账号？立即登陆</a></li>
 		</ul>
-		</form>
 	</div>
 	<div class="footer">
 		<p>Copyright 2017 BigData forum 大数据论坛（吉吉国王小组）版权所有<br/>

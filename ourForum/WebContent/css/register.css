@@ -60,10 +60,15 @@ a{
 	padding-top:50px;
 	position: relative;
 }
+.mid .mid_main .textsize{
+	font-size: 12px;
+}
 .mid .mid_main li{
 	text-align: center;
 	height:100px;
-	color:#0080ff;
+}
+.mid .mid_main .mid_main_href{
+	color:white;
 }
 .mid .mid_main input{
 	width: 278px;   
@@ -73,7 +78,6 @@ a{
     padding: 10px;   
     font-size: 13px;   
     color: #fff;   
-    text-shadow:1px 1px 1px;   
     border-top: 1px solid #312E3D;   
     border-left: 1px solid #312E3D;   
     border-right: 1px solid #312E3D;   
@@ -88,7 +92,7 @@ a{
     background-color: #4a77d4;   
     border: 1px solid #3762bc;   
     color: #fff;
-    margin-left:200px;   
+    margin-left:260px;   
     font-size: 15px;   
     border-radius: 5px;
     position: absolute;
