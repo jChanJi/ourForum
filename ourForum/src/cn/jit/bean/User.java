@@ -5,7 +5,7 @@ package cn.jit.bean;
  *用户对象
  */
 public class User {
-	private String u_id;//编号
+	private int u_id;//编号
 	private String u_name;//用户名规定格式
 	private String u_passwd;//密码，规定格式
 	private String u_sex;//性别，男或者女
@@ -19,11 +19,11 @@ public class User {
 	public User(){
 		
 	}
-	public String getU_id() {
+	public int getU_id() {
 		return u_id;
 	}
 
-	public void setU_id(String u_id) {
+	public void setU_id(int u_id) {
 		this.u_id = u_id;
 	}
 

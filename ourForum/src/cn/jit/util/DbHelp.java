@@ -10,7 +10,7 @@ public class DbHelp {
 			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://localhost/forum?useUnicode=true&characterEncoding=utf-8&useSSL=false";
 			String user = "root";
-			String password = "123456";
+			String password = "root";
 			Connection conn = (Connection) DriverManager.getConnection(url, user, password);
 			System.out.println(conn.getMetaData().getURL());
 			return conn;

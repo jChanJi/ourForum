@@ -10,7 +10,7 @@ import java.sql.Date;
 public class Post {
 	private int p_id;//发布的帖子的id
 	private int u_id;//发帖用户id
-	private String p_title;//发帖的名称
+	private String p_title;//发帖的名称 不超过50个字
 	private String p_content;//发帖的内容
 	private Date p_time;//发帖时间
 	//无参构造
