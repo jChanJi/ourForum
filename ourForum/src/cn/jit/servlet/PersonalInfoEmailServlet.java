@@ -22,11 +22,12 @@ public class PersonalInfoEmailServlet extends HttpServlet{
 		
 	    String regex = "\\w+\\x40\\w+\\x2e\\w+"; 
 	    /*System.out.println(email);*/
-	    if(email == null || email.length() == 0){
+	    if(email == "" || email.length() == 0){
 			out.print("邮箱不能为空");//输入为空
 		}else{
 			if(email.matches(regex))	{
 				out.print("邮箱可以使用");//符合命名规则
+				//此处后台接受个人信息界面的邮箱
 			}else{
 				out.print("不正确的邮箱格式");//包含非法字符
 			}
