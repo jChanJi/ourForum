@@ -107,12 +107,15 @@
 				<div class="clear_both"></div>
 			</ul>
 		</div>
-		<div class="myResponse">
-			<p><strong><em>我的回复</em></strong></p>
-			<div class="myResponse_text"><textarea placeholder="写点想法吧..." maxlength="50" autocomplete="off"></textarea></div>
-			<div class="submit"><input type="submit" value="提交"></div>
-			<div class="clear_both"></div>
-		</div>
+		<!-- 王顺添加了form -->
+		<form action="reply.do" method="post">
+			<div class="myResponse">
+				<p><strong><em>我的回复</em></strong></p>
+				<div class="myResponse_text"><textarea placeholder="写点想法吧..." maxlength="50" autocomplete="off" name="content"></textarea></div>
+				<div class="submit"><input type="submit" value="提交"></div>
+				<div class="clear_both"></div>
+			</div>
+		</form>
 	</div>
 	<div class="footer">
 	<p>Copyright 2017 BigData forum 大数据论坛（吉吉国王小组）版权所有<br/>

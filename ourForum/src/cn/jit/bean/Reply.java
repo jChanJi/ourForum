@@ -1,6 +1,6 @@
 package cn.jit.bean;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  * 
@@ -12,7 +12,7 @@ public class Reply {
 	private int p_id;//发布帖子的id
 	private int u_id;//回帖用户id
 	private String r_content;//回复的内容
-	private Date r_time;//回复时间
+	private Timestamp r_time;//回复时间
 	//无参构造
 	public Reply(){
 		
@@ -25,7 +25,7 @@ public class Reply {
 	 * @param r_content
 	 * @param r_time
 	 */
-	public Reply(int r_id, int p_id, int u_id, String r_content, Date r_time) {
+	public Reply(int r_id, int p_id, int u_id, String r_content, Timestamp r_time) {
 		super();
 		this.r_id = r_id;
 		this.p_id = p_id;
@@ -57,10 +57,10 @@ public class Reply {
 	public void setR_content(String r_content) {
 		this.r_content = r_content;
 	}
-	public Date getR_time() {
+	public Timestamp getR_time() {
 		return r_time;
 	}
-	public void setR_time(Date r_time) {
+	public void setR_time(Timestamp r_time) {
 		this.r_time = r_time;
 	}
 	//转化成字符串
