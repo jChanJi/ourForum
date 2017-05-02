@@ -17,12 +17,16 @@ $(document).ready(function(){
 			success:function(data){
 				if(data.length == 1){
 					$("#namePrompt").html("<font color=\"white\">用户名可以使用</font>");
+					$("#load").removeAttr("disabled");
 				}else if(data.length == 2){
 					$("#namePrompt").html("<font color=\"red\">用户名不能为空</font>");
+					$("#load").attr({"disabled":"disabled"});
 				}else if(data.length == 3){
 					$("#namePrompt").html("<font color=\"red\">含有非法字符</font>");
+					$("#load").attr({"disabled":"disabled"});
 				}else if(data.length == 4){
 					$("#namePrompt").html("<font color=\"red\">用户名过短</font>");
+					$("#load").attr({"disabled":"disabled"});
 				}
 			},
 			error:function(){

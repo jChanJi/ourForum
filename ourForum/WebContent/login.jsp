@@ -33,7 +33,7 @@
 			<p id="passwdPrompt">区分大小写哟！</p>
 			</li>
 			<li class="mid_main_li4"><input class="mid_main_button" id="load" type="submit" value="登陆"></li>
-			<li class="mid_main_li5"><a href="register.jsp">还没有账号？立即注册</a></li>
+			<li class="mid_main_li5"><a class="mid_main_href" href="register.jsp">还没有账号？立即注册</a></li>
 		</ul>
 	</div>
 	<div class="footer">

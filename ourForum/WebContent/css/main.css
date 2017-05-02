@@ -42,9 +42,8 @@ body{
 .banner .banner_login{
 	float:right;
 	display:block;
-	width:150px;
+	width:100px;
 	height:75px;
-	text-align:center;
 	background-color: #28d0e9;	
 	overflow:hidden;
 	position: relative;
@@ -55,7 +54,7 @@ body{
 	color:white;
 	position:absolute;
 	top:20px;
-	left:40px;
+	left:30px;
 }
 .banner .banner_register{
 	float:right;
@@ -85,7 +84,7 @@ body{
 	width:641px;
 	height:321px;
 	float:left;
-	border:1px solid #yellow;
+	border:3px solid gray;
 	margin-left:25%;
 	margin-top:60px;
 	position: relative;

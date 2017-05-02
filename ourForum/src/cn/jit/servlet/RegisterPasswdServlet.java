@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@SuppressWarnings("serial")
 public class RegisterPasswdServlet extends HttpServlet{
 
 	@Override
@@ -15,7 +16,6 @@ public class RegisterPasswdServlet extends HttpServlet{
 		resp.setContentType("text/html,charset=utf-8");
 		PrintWriter out = resp.getWriter();
 		
-		String userName = req.getParameter("userName");
 		String password = req.getParameter("password");
 		String password_confirm = req.getParameter("password_confirm");
 		

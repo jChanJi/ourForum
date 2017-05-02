@@ -17,7 +17,7 @@
 	<div class="banner">
 		<ul>
 			<li class="banner_logo"><img alt="" src="image/logo.jpg"></li>
-			<li class="banner_login"><a href="register.jsp">注册有礼</a></li>
+			<li class="banner_login"><a href="register.jsp">注册</a></li>
 			<li class="banner_register"><a href="login.jsp">登陆</a></li>
 			<div class="clear_both"></div>
 		</ul>
@@ -36,8 +36,10 @@
 				<li><a href=""><img src="image/hot3.jpg"></a></li>
 				<li><a href=""><img src="image/hot4.jpg"></a></li>-->
 			</ul>
+			<!--  
 			<span class="leftArrow" id="leftArrow"><a>&lt;</a></span>
 			<span class="rightArrow" id="rightArrow"><a>&gt;</a></span>
+			-->
 			<ol class="focusBox">
 				<li onclick="showPic(1)">1</li>
 				<li onclick="showPic(2)">2</li>

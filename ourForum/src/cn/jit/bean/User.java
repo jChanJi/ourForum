@@ -8,12 +8,12 @@ public class User {
 	private int u_id;//编号
 	private String u_name;//用户名规定格式
 	private String u_passwd;//密码，规定格式
-	private String u_sex;//性别，男或者女
-	private String u_mail;//邮箱，规定格式
-	private String u_occupation;//职业，不多于20个字
-	private String u_des;//简介，一百字以内
-	private String u_hp;//头像的地址（文件的地址）
-	private String u_location;//常住地址，50 个字以内
+	private String u_sex;//性别，男或者女,允许为空
+	private String u_mail;//邮箱，规定格式,允许为空
+	private String u_occupation;//职业，不多于20个字,允许为空
+	private String u_des;//简介，一百字以内,允许为空
+	private String u_hp;//头像的地址（文件的地址）,允许为空
+	private String u_location;//常住地址，50 个字以内,允许为空
 	
 	//无参构造函数，必须写！
 	public User(){
