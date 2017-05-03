@@ -19,7 +19,7 @@ public class User {
 	public User(){
 		
 	}
-	public Integer getU_id() {
+	public int getU_id() {
 		return u_id;
 	}
 

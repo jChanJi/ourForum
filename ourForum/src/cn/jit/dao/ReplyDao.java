@@ -19,20 +19,20 @@ public class ReplyDao {
 		conn = new DbHelp().getCon();
 	}
 	/**
-	 * 
+	 * 评论用户的评论发表
 	 * @param doc
 	 * @return
 	 */
 	public boolean rInsert(Reply doc){
 		int flag=0;
-		String sql = "insert into post (r_id,p_id,u_id,r_content,r_time) values(?,?,?,?,?)";
+		String sql = "insert into reply (r_id,p_id,u_id,r_content,r_time) values(?,?,?,?,?)";
 		try {
 			pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, doc.getR_id());
 			pstmt.setInt(2, doc.getP_id());
 			pstmt.setInt(3, doc.getU_id());
 			pstmt.setString(4, doc.getR_content());
-			pstmt.setDate(5, doc.getR_time());
+			pstmt.setTimestamp(5, doc.getR_time());
 			flag = pstmt.executeUpdate();
 			pstmt.close();
 			conn.close();
@@ -40,6 +40,24 @@ public class ReplyDao {
 			e.printStackTrace();
 		}
 		if(flag != 0){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	
+	public boolean rDelete(int r_id){
+		int flag = 0;
+		String sql = "delete from reply where r_id='"+r_id+"'";
+		try {
+			pstmt = conn.prepareStatement(sql);
+			flag = pstmt.executeUpdate();
+			pstmt.close();
+			conn.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		if(0!=flag){
 			return true;
 		}else{
 			return false;

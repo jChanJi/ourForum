@@ -1,6 +1,6 @@
 package cn.jit.bean;
 
-import java.sql.Date;
+import java.sql.Timestamp;
 
 /**
  * 
@@ -10,9 +10,9 @@ import java.sql.Date;
 public class Post {
 	private int p_id;//发布的帖子的id
 	private int u_id;//发帖用户id
-	private String p_title;//发帖的名称
+	private String p_title;//发帖的名称 不超过50个字
 	private String p_content;//发帖的内容
-	private Date p_time;//发帖时间
+	private Timestamp p_time;//发帖时间
 	//无参构造
 	public Post(){
 		
@@ -25,7 +25,7 @@ public class Post {
 	 * @param p_content
 	 * @param p_time
 	 */
-	public Post(int p_id, int u_id, String p_title, String p_content, Date p_time) {
+	public Post(int p_id, int u_id, String p_title, String p_content, Timestamp p_time) {
 		super();
 		this.p_id = p_id;
 		this.u_id = u_id;
@@ -57,10 +57,10 @@ public class Post {
 	public void setP_content(String p_content) {
 		this.p_content = p_content;
 	}
-	public Date getP_time() {
+	public Timestamp getP_time() {
 		return p_time;
 	}
-	public void setP_time(Date p_time) {
+	public void setP_time(Timestamp p_time) {
 		this.p_time = p_time;
 	}
 	//转化成字符串
