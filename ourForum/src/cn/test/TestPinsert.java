@@ -21,10 +21,12 @@ public class TestPinsert {
 //		user.setU_occupation("sadae");
 		p.setU_id(user.getU_id());
 		p.setP_time(ttime);
-		p.setP_title("aasdka");
+		p.setP_title("aasdk");
 		p.setP_content("saukfgaksfk");
 		PostDao pd = new PostDao();
 		pd.pInsert(p);
+//		PostDaodemo pdd = new PostDaodemo();
+//		pdd.insert(p);
 //		pd.pDelete(5);
 	}
 
