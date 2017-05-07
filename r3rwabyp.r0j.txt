@@ -1,0 +1,46 @@
+﻿Merge remote-tracking branch 'refs/remotes/jChanJi/master'
+
+# Conflicts:
+#	ourForum/src/cn/jit/bean/User.java
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   ourForum/WebContent/WEB-INF/web.xml
+#	modified:   ourForum/WebContent/css/login.css
+#	modified:   ourForum/WebContent/css/main.css
+#	modified:   ourForum/WebContent/css/register.css
+#	modified:   ourForum/WebContent/js/loginUsernameCheck.js
+#	modified:   ourForum/WebContent/js/registerCheck.js
+#	modified:   ourForum/WebContent/login.jsp
+#	modified:   ourForum/WebContent/main.jsp
+#	modified:   ourForum/WebContent/part_text.jsp
+#	new file:   ourForum/WebContent/post.jsp
+#	modified:   ourForum/WebContent/register.jsp
+#	modified:   ourForum/build/classes/.gitignore
+#	modified:   ourForum/src/cn/jit/bean/Post.java
+#	modified:   ourForum/src/cn/jit/bean/Reply.java
+#	modified:   ourForum/src/cn/jit/bean/User.java
+#	modified:   ourForum/src/cn/jit/dao/PostDao.java
+#	modified:   ourForum/src/cn/jit/dao/ReplyDao.java
+#	modified:   ourForum/src/cn/jit/servlet/LoginServlet.java
+#	modified:   ourForum/src/cn/jit/servlet/RegisterPasswdServlet.java
+#	modified:   ourForum/src/cn/jit/servlet/RegisterServlet.java
+#	new file:   ourForum/src/cn/jit/servlet/post/PostServlet.java
+#	modified:   ourForum/src/cn/test/TestPinsert.java
+#	new file:   ourForum/src/cn/test/TestReply.java
+#	new file:   ourForum/src/reply/replyServlet.java
+#	new file:   "\346\224\271\350\277\233\345\273\272\350\256\256.docx"
+#
+
