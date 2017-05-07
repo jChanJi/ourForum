@@ -20,7 +20,7 @@ public class PersonalInfoServlet extends HttpServlet{
 		PrintWriter out = resp.getWriter();
 		String username = req.getParameter("username");
 		
-		if(username == null || username.length() == 0){
+		if(username == "" || username.length() == 0){
 			out.print("用户名不能为空");//输入为空
 		}else if(username.length() <= 6){
 			out.print("用户名过短");//用户名过短
@@ -28,6 +28,7 @@ public class PersonalInfoServlet extends HttpServlet{
 			String regex = "^[a-z0-9A-Z\u4e00-\u9fa5]+$";
 			if(username.matches(regex))	{
 				out.print("用户名可以使用");//符合命名规则
+				//此处后台接受个人信息界面的用户名
 			}else{
 				out.print("含有非法字符");//包含非法字符
 			}

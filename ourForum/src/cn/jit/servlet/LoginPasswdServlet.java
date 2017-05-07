@@ -17,9 +17,10 @@ public class LoginPasswdServlet extends HttpServlet{
 		String username = req.getParameter("userName");
 		String password = req.getParameter("password");
 		if(password.length() <= 4){
-			out.print("a");
+			out.print("a");//密码错误
 		}else{
-			out.print("aa");
+			out.print("aa");//密码正确
+			//此处后台接受登陆密码
 		}
 		System.out.println(password);
 		out.flush();

@@ -20,9 +20,10 @@ public class RegisterPasswdServlet extends HttpServlet{
 		String password_confirm = req.getParameter("password_confirm");
 		
 		if(password.equals(password_confirm)){
-			out.print("a");
+			out.print("a");//密码正确
+			//此处后台接受注册密码
 		}else{
-			out.print("aa");
+			out.print("aa");//密码有误
 		}
 		
 		out.flush();
