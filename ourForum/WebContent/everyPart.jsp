@@ -33,7 +33,7 @@
 	<div class="mainForum">
 		<ul class="text">
 			<li>
-				<span class="text_talk">【公 告】3月30日服务器维护公 告</span>
+				<span class="text_talk" ><a href="part_text.jsp">【公 告】3月30日服务器维护公 告</a></span>
 				<span class="text_talker">mayuyu</span>
 				<span class="text_reply_num">25</span>
 			</li>

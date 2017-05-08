@@ -3,10 +3,12 @@ package cn.jit.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.security.auth.message.callback.PrivateKeyCallback.Request;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class RegisterServlet extends HttpServlet{
 
@@ -27,6 +29,8 @@ public class RegisterServlet extends HttpServlet{
 			if(userName.matches(regex))	{
 				out.print("a");//符合命名规则
 				//此处后台接受注册用户名
+				HttpSession session =  req.getSession();
+				session.setAttribute("username",userName);
 			}else{
 				out.print("aaa");//包含非法字符
 			}

@@ -28,10 +28,8 @@ public class replyServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String content = request.getParameter("content");
 		Timestamp rtime = new Timestamp(new Date().getTime());
-		
 		reply.setR_time(rtime);
 		reply.setR_content(content);
-		
 		rd.rInsert(reply);
 		
 	}

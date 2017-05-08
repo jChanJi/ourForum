@@ -37,7 +37,7 @@
 		<div class="right">
 			<table class="r_table">
 				<tr>
-					<td>用户名：</td>
+					<td >用户名：</td>
 				</tr>
 				<tr>
 					<td><input type="text" class="" id="username" value="" name="username" autocomplete="off"></td>

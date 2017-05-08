@@ -12,7 +12,7 @@ public class DbHelp {
 			String user = "root";
 			String password = "root";
 			Connection conn = (Connection) DriverManager.getConnection(url, user, password);
-			System.out.println(conn.getMetaData().getURL());
+			//System.out.println(conn.getMetaData().getURL());
 			return conn;
 		} catch (Exception e) {
 			e.printStackTrace();
