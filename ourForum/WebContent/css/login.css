@@ -135,7 +135,31 @@ a{
 	height:100px;
 	background-color:rgba(0,0,0,0.1);
 	opacity: 0.6;
+	
 }
 .mid .footer p{
 	text-align: center;
+}
+.forgetpd{
+	text-align:center;
+    left:50%;
+    top:50%;
+
+}
+.forgetpd-ct{
+	width:400px;
+	height:400px;
+	margin:0 auto;
+	padding-top:100px;
+	text-align: left;
+}
+.forgetpd-ct input{
+	width:200px;
+	height:30px;
+	margin-top:10px;
+	border:1px solid #333;
+}
+
+.fclick{
+	cursor: pointer;
 }

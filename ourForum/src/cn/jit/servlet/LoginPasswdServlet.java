@@ -21,7 +21,10 @@ public class LoginPasswdServlet extends HttpServlet{
 		}else{
 			out.print("aa");//密码正确
 			//此处后台接受登陆密码
+			
 		}
+
+		
 		System.out.println(password);
 		out.flush();
 		out.close();
